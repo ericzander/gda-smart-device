@@ -2,13 +2,13 @@
 
 Data analysis case study concerning health-related smart devices. Implemented for the Google Data Analytics certificate.
 
-## Objectives
+## ***Ask***: Objectives
 
 * Observe trends in smart device usage
 * Determine applicability to Bellabeat products
 * Suggest takeaways for marketing strategy
 
-## Data
+## ***Prepare***: Data Description
 
 This project uses crowd-sourced FitBit Fitness Tracker data collected via Amazon Mechanical Turk between 3/12/2016 and 5/12/2016. Includes info concerning activity, calories burnt, sleep, steps, and logged weight for 30 participants.
 
@@ -20,10 +20,33 @@ Unzip *data/Fitabase Data 4.12.16-5.12.16.zip* for the raw data and to replicate
 * Other references
   * FitBit sleep stages: <https://blog.fitbit.com/sleep-stages-explained/>
 
-## Findings
+## ***Process***: Cleaning Data
 
+Data manipulation steps included:
 
-## Takeaways
+* Dropping missing data
+* Identifying and dropping duplicated data
+* Column renaming
+* Date/time conversions
+* Rounding to nearest minutes
+* Merging tables into following groups
+  * Daily
+  * Hourly
+  * Minute
+  * Weight logging
+  * User measures
+* Feature creation
+  * Whether a user wore a device on a given day
+  * Compute number of minutes each user wore device
+  * Clustering users with KMeans
+
+A more detailed breakdown can be found with the cleaned data in *data/cleaned/steps.md*
+
+## ***Analysis***: Findings
+
+## ***Share***: Visualization
+
+## ***Act***: Recommendations
 
 ---
 

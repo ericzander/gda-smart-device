@@ -31,3 +31,9 @@
 
 * Copy weight logs to clean data
   
+## Users
+
+* Start with minute data (no missing values)
+* Compute the number of minutes users wore device
+* Calculate averages of measures by user
+* Cluster with KMeans and the elbow method
